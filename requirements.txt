@@ -1,0 +1,7 @@
+numpy
+torch
+rasterio
+scikit-image
+matplotlib
+jupyter
+opencv-python
