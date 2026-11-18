@@ -1,0 +1,17 @@
+split,method,PSNR,SSIM,SSIM_CI,n
+train,degraded input,25.15,0.756,0.752-0.760,500
+train,Gaussian filter (sigma 0.5),24.86,0.742,0.738-0.747,500
+train,median filter (3x3),24.59,0.727,0.722-0.732,500
+train,U-Net,28.96,0.873,0.870-0.876,500
+test_spatial,degraded input,27.14,0.757,0.753-0.762,500
+test_spatial,Gaussian filter (sigma 0.5),26.9,0.744,0.740-0.749,500
+test_spatial,median filter (3x3),26.64,0.729,0.723-0.734,500
+test_spatial,U-Net,29.9,0.859,0.855-0.862,500
+test_temporal,degraded input,28.49,0.759,0.755-0.762,500
+test_temporal,Gaussian filter (sigma 0.5),28.26,0.746,0.742-0.750,500
+test_temporal,median filter (3x3),27.99,0.729,0.725-0.733,500
+test_temporal,U-Net,30.26,0.838,0.835-0.841,500
+test_spatiotemporal,degraded input,28.73,0.761,0.758-0.764,500
+test_spatiotemporal,Gaussian filter (sigma 0.5),28.51,0.748,0.745-0.752,500
+test_spatiotemporal,median filter (3x3),28.24,0.731,0.727-0.735,500
+test_spatiotemporal,U-Net,30.4,0.839,0.836-0.841,500

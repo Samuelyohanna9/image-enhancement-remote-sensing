@@ -1,0 +1,4 @@
+split,best_baseline,SSIM_gain,patches_improved,wilcoxon_p
+test_spatial,Gaussian filter (sigma 0.5),0.114,100%,1.3e-83
+test_temporal,Gaussian filter (sigma 0.5),0.092,100%,1.3e-83
+test_spatiotemporal,Gaussian filter (sigma 0.5),0.09,100%,1.3e-83

@@ -1,0 +1,13 @@
+split,method,threshold,F1,IoU
+test_spatial,degraded input,0.06,0.784,0.645
+test_spatial,Gaussian filter (sigma 0.5),0.06,0.787,0.649
+test_spatial,median filter (3x3),0.055,0.777,0.636
+test_spatial,U-Net,0.1,0.608,0.437
+test_temporal,degraded input,0.06,0.806,0.675
+test_temporal,Gaussian filter (sigma 0.5),0.06,0.81,0.681
+test_temporal,median filter (3x3),0.055,0.793,0.657
+test_temporal,U-Net,0.1,0.723,0.566
+test_spatiotemporal,degraded input,0.06,0.804,0.672
+test_spatiotemporal,Gaussian filter (sigma 0.5),0.06,0.807,0.677
+test_spatiotemporal,median filter (3x3),0.055,0.79,0.653
+test_spatiotemporal,U-Net,0.1,0.723,0.567

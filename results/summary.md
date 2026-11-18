@@ -1,0 +1,6 @@
+- test_spatial: SSIM 0.757 (degraded) -> 0.859 (U-Net); best baseline Gaussian filter (sigma 0.5), U-Net gain +0.114 SSIM, better on 100% of patches (Wilcoxon p = 1.3e-83).
+- test_temporal: SSIM 0.759 (degraded) -> 0.838 (U-Net); best baseline Gaussian filter (sigma 0.5), U-Net gain +0.092 SSIM, better on 100% of patches (Wilcoxon p = 1.3e-83).
+- test_spatiotemporal: SSIM 0.761 (degraded) -> 0.839 (U-Net); best baseline Gaussian filter (sigma 0.5), U-Net gain +0.090 SSIM, better on 100% of patches (Wilcoxon p = 1.3e-83).
+- change detection F1, test_spatial: degraded 0.784, U-Net 0.608
+- change detection F1, test_spatiotemporal: degraded 0.804, U-Net 0.723
+- change detection F1, test_temporal: degraded 0.806, U-Net 0.723

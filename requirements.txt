@@ -2,6 +2,8 @@ numpy
 torch
 rasterio
 scikit-image
+scipy
+pandas
+requests
 matplotlib
 jupyter
-opencv-python

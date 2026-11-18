@@ -1,0 +1,4 @@
+data/
+.ipynb_checkpoints/
+results/unet_best.pt
+__pycache__/
